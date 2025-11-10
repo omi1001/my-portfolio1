@@ -4,9 +4,9 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'; // We already installed r
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
-  // ⚠️ REPLACE with your social links
+  
   const GITHUB_URL = 'https://github.com/omi1001';
-  const LINKEDIN_URL = 'https://www.linkedin.com/in/om-singh-260167327/'; // Add your LinkedIn URL
+  const LINKEDIN_URL = 'https://www.linkedin.com/in/om-singh-260167327/';
 
   return (
     <footer className="w-full py-8 px-4 bg-gray-900 border-t border-gray-800">

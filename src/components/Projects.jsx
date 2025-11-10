@@ -5,16 +5,14 @@ import netlixImage from '../assets/image2.png';
 import webappImage from '../assets/image5.png';
 import blogappimage from '..assets/image.png';
 
-// --- ⚠️ ADD YOUR IMAGE IMPORT HERE ---
-// import netflixImage from '../assets/netflix-clone.png';
-// import project2Image from '../assets/project2.png';
 
-// This is where you'll add all your project details
+
+
 const projectData = [
   {
     title: 'Netflix Clone',
     
-    image: netlixImage, // <-- Add your image import
+    image: netlixImage, 
     description:
       'A feature-rich clone of the Netflix homepage. Built with React, Tailwind CSS, and powered by the TMDB API for movie data. Includes Firebase authentication for user sign-in.',
     tags: ['React', 'Tailwind CSS', 'Firebase', 'TMDB API'],
@@ -23,26 +21,24 @@ const projectData = [
   },
   {
     title: 'webapp',
-    image: webappImage, // <-- Add your image import
+    image: webappImage, 
     description:
       'A full-stack E-Commerce. Users can browse, Buy, and return PC parts. Built with JSP, Servlets, and a Oracle XE database.',
     tags: ['JSP', 'Java', 'ORACLE', 'HTML', 'CSS'],
-    liveLink: '#', // <-- Add link
-    githubLink: 'https://github.com/omi1001/webapp.git', // <-- Add link
+    liveLink: '#', 
+    githubLink: 'https://github.com/omi1001/webapp.git', 
   },
   {
     title: 'Blog-App',
-    image: blogappimage, // <-- Add your image import
-    description:
+    image: blogappimage, 
       'This mobile app is made with using react-native for live preview while the development android studio is used to ensure the better frontend. Meanwhile for the backend PostgreSql is used to store the data like posts and to connect the frontend to backend Rest API is used. Authorization has been implemented so that used does not  have to use the spring generated password again and again. ',
     tags: ['Spring-Boot', 'Java', 'PostgreSql', 'React-Native', 'CSS', 'Android Studio', 'Postman'],
-    //liveLink: '#', // <-- Add link
-    githubLink: 'https://github.com/omi1001/MyBlogApp.git', // <-- Add link
+    //liveLink: '#', 
+    githubLink: 'https://github.com/omi1001/MyBlogApp.git', 
   },
-  // Add more projects here
-];
+  
 
-// Animation for the card
+
 const cardVariants = {
   hidden: { opacity: 0, y: 50 },
   visible: {
@@ -77,7 +73,7 @@ const Projects = () => {
             >
               {/* --- Image --- */}
               <img
-                // Use a placeholder if no image is provided
+                
                 src={project.image || 'https://via.placeholder.com/600x400'}
                 alt={project.title}
                 className="w-full h-56 object-cover"

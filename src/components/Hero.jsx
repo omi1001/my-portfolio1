@@ -3,8 +3,7 @@ import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import profilePic from '../assets/WhatsApp.jpg';
 
-// You'll need to replace this with the actual path to your image
-// For example: import profilePic from '../assets/my-photo.png';
+
 const YOUR_PROFILE_IMAGE_URL = './assets/WhatsApp.jpg';
 
 // --- Animation Variants ---
@@ -13,7 +12,7 @@ const containerVariants = {
   hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.2, // Stagger the children animations
+      staggerChildren: 0.2,
     },
   },
 };
@@ -55,7 +54,7 @@ const Hero = () => {
             className="text-5xl font-bold md:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600"
             variants={itemVariants}
           >
-            {/* ⚠️ REPLACE THIS */}
+           
             Hi, I'm Om
           </motion.h1>
 
@@ -64,7 +63,7 @@ const Hero = () => {
             variants={itemVariants}
           >
             <TypeAnimation
-              // ⚠️ REPLACE THESE STRINGS
+             
               sequence={[
                 'I am a React Developer',
                 1500, // wait 1.5s
@@ -88,7 +87,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.a
-            href="#projects" // Link to your projects section
+            href="#projects" 
             className="mt-8 px-8 py-3 font-semibold text-lg bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-lg"
             variants={itemVariants}
             whileHover={{ scale: 1.05 }}
