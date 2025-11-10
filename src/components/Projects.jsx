@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'; // Using react-icons for the links
 import netlixImage from '../assets/image2.png';
 import webappImage from '../assets/image5.png';
+import blogappimage from '..assets/image.png';
 
 // --- ⚠️ ADD YOUR IMAGE IMPORT HERE ---
 // import netflixImage from '../assets/netflix-clone.png';
@@ -28,6 +29,15 @@ const projectData = [
     tags: ['JSP', 'Java', 'ORACLE', 'HTML', 'CSS'],
     liveLink: '#', // <-- Add link
     githubLink: 'https://github.com/omi1001/webapp.git', // <-- Add link
+  },
+  {
+    title: 'Blog-App',
+    image: blogappimage, // <-- Add your image import
+    description:
+      'This mobile app is made with using react-native for live preview while the development android studio is used to ensure the better frontend. Meanwhile for the backend PostgreSql is used to store the data like posts and to connect the frontend to backend Rest API is used. Authorization has been implemented so that used does not  have to use the spring generated password again and again. ',
+    tags: ['Spring-Boot', 'Java', 'PostgreSql', 'React-Native', 'CSS', 'Android Studio', 'Postman'],
+    liveLink: '#', // <-- Add link
+    githubLink: 'https://github.com/omi1001/MyBlogApp.git', // <-- Add link
   },
   // Add more projects here
 ];

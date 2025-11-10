@@ -28,7 +28,7 @@ export const Navbar = () => {
     spy: true,          // Makes the link "spy" on the scroll position
     smooth: true,       // Enables smooth scrolling
     duration: 500,      // Scroll speed in milliseconds
-    offset: -80,        // Adjust this to your navbar height!
+          // Adjust this to your navbar height!
     activeClass: activeLinkClass, // Class to apply when link is active
     className: `cursor-pointer ${inactiveLinkClass}`, // Default classes
   };
