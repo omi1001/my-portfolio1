@@ -29,6 +29,15 @@ const projectData = [
     liveLink: '#', // <-- Add link
     githubLink: 'https://github.com/omi1001/webapp.git', // <-- Add link
   },
+  {
+    title: 'Blog-App',
+    image: , // <-- Add your image import
+    description:
+      'A fully functioning mobile application {Blog-App} which has a database api that fetches the data from it and interface made with react-native, For the preview i have used Pixel 7 from android studio.',
+    tags: ['JAVA', 'Spring-Boot', 'PostgreSQL', 'React-Native', 'Android Studio'],
+    liveLink: '#', // <-- Add link
+    githubLink: 'https://github.com/omi1001/MyBlogApp.git', // <-- Add link
+  },
   // Add more projects here
 ];
 
