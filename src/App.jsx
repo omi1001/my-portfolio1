@@ -7,7 +7,7 @@ import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 function App() {
   return (
-    // Add a red background, white text, and padding
+    
     <div className="min-h-screen bg-zinc-950">
       <Navbar/>
       <Hero/>

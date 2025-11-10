@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// 1. We import 'Link' from 'react-scroll', NOT 'react-router-dom'
+
 import { Link } from 'react-scroll';
 import { Menu, X } from 'lucide-react';
 import { motion } from 'framer-motion'; // Added for extra polish
@@ -11,15 +11,15 @@ export const Navbar = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  // 2. These are the IDs of your sections, not URL paths
+  
   const navLinks = [
-    { name: 'Home', to: 'hero' }, // 'hero' is the ID of your Hero section
+    { name: 'Home', to: 'hero' }, 
     { name: 'About', to: 'about' },
     { name: 'Projects', to: 'projects' },
   ];
   const contactLink = { name: 'Contact', to: 'contact' };
 
-  // 3. This is the new, eye-catchy style for the *active* link
+  
   const activeLinkClass = 'text-white font-bold border-b-2 border-purple-500';
   const inactiveLinkClass = 'text-gray-300 hover:text-white transition-colors duration-200';
 
@@ -28,13 +28,13 @@ export const Navbar = () => {
     spy: true,          // Makes the link "spy" on the scroll position
     smooth: true,       // Enables smooth scrolling
     duration: 500,      // Scroll speed in milliseconds
-          // Adjust this to your navbar height!
-    activeClass: activeLinkClass, // Class to apply when link is active
+          
+    activeClass: activeLinkClass, 
     className: `cursor-pointer ${inactiveLinkClass}`, // Default classes
   };
 
   return (
-    // 4. Added backdrop-blur for a "frosted glass" effect. More eye-catchy!
+   
     <nav className="w-full p-4 bg-gray-900/70 backdrop-blur-md text-white shadow-lg shadow-white/5 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* === Logo/Brand Name === */}

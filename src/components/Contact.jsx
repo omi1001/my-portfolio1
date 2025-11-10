@@ -17,10 +17,7 @@ const sectionVariants = {
 };
 
 const Contact = () => {
-  // ⚠️ IMPORTANT:
-  // 1. Go to https://formspree.io/ and create a new form.
-  // 2. Get your unique endpoint URL.
-  // 3. Paste it below to replace 'YOUR_UNIQUE_FORM_ID'.
+  
   const FORM_ENDPOINT = 'https://formspree.io/f/mrboalow';
 
   return (
