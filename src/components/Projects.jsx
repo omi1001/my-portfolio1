@@ -36,7 +36,7 @@ const projectData = [
     description:
       'This mobile app is made with using react-native for live preview while the development android studio is used to ensure the better frontend. Meanwhile for the backend PostgreSql is used to store the data like posts and to connect the frontend to backend Rest API is used. Authorization has been implemented so that used does not  have to use the spring generated password again and again. ',
     tags: ['Spring-Boot', 'Java', 'PostgreSql', 'React-Native', 'CSS', 'Android Studio', 'Postman'],
-    liveLink: '#', // <-- Add link
+    //liveLink: '#', // <-- Add link
     githubLink: 'https://github.com/omi1001/MyBlogApp.git', // <-- Add link
   },
   // Add more projects here
