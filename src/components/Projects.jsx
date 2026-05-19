@@ -41,7 +41,8 @@ const projectData = [
     image: '',
        'This landing page is made with using React for responsiveness tailwind has been implemented.',
     tags: ['Ract.js', 'Javascript', 'Tailwind-CSS', 'HTML', 'CSS',],
-    vercelLink: 'https://my-portfolio1-eight-psi.vercel.app/#projects',
+    liveLink: 'https://my-portfolio1-eight-psi.vercel.app/#projects',
+    GithubLink: 'https://github.com/omi1001/my-portfolio1',
   },
 
 
