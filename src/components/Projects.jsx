@@ -36,7 +36,13 @@ const projectData = [
     //liveLink: '#', 
     githubLink: 'https://github.com/omi1001/MyBlogApp.git', 
   },
-  
+  {
+    title: 'IIM SIRMAUR LANDING PAGE',
+    image: '',
+       'This landing page is made with using React for responsiveness tailwind has been implemented.',
+    tags: ['Ract.js', 'Javascript', 'Tailwind-CSS', 'HTML', 'CSS',],
+    vercelLink: 'https://my-portfolio1-eight-psi.vercel.app/#projects',
+  },
 
 
 const cardVariants = {
